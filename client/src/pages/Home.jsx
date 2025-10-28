@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { AppContext } from "../context/AppContext.jsx";
 import Footer from "../components/Footer.jsx";
 
+
 const Home = () => {
   const navigate = useNavigate();
   const { userData, isLoggedIn } = useContext(AppContext);
